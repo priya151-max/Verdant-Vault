@@ -35,6 +35,10 @@ The application encourages environmental responsibility through a secure, real-t
 - Authentication: Secure user login & role-based access
 - Storage: Cloud-based image handling
 - Tools: Android Studio, Web Dashboard
+# 🎥 Project Demo
+👉 Click here to watch the demo:  
+https://github.com/user-attachments/assets/19b50e96-d441-40b5-b81c-8daf7e9e08f1
+
 # 🔒 Non-Functional Features
 - Scalable cloud database architecture
 - Secure data storage and access
