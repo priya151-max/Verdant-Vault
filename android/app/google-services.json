@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "135605107014",
+    "project_id": "verdant-vault-6c401",
+    "storage_bucket": "verdant-vault-6c401.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135605107014:android:a66a8fa1b863a6ede68d47",
+        "android_client_info": {
+          "package_name": "com.example.verdant_value"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_fbE7tzBORi3EiW5qi1AMMZfBNUkwERg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135605107014:android:c23f9ea2c2e1df3ce68d47",
+        "android_client_info": {
+          "package_name": "com.example.verdant_vault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_fbE7tzBORi3EiW5qi1AMMZfBNUkwERg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

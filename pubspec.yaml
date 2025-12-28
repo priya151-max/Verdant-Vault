@@ -1,0 +1,47 @@
+name: verdant_vault
+description: "A sustainability-focused Flutter app for eco-commerce, investors, and analytics."
+publish_to: 'none' # Remove this line if you plan to publish on pub.dev
+
+# Versioning
+version: 1.0.0+1
+
+environment:
+  # FIX: Change to a standard, current Dart SDK constraint (Flutter 3.x uses Dart 3.x)
+  sdk: '>=3.0.0 <4.0.0'
+
+# -------------------------
+# Dependencies
+# -------------------------
+
+dependencies:
+  flutter:
+    sdk: flutter
+  uuid: ^4.0.0
+  mongo_dart: ^0.10.5
+  crypto: ^3.0.3
+  image_picker: ^1.0.4 # Updated to a more current, stable version
+  provider: ^6.0.5 # Add this line
+
+
+# -------------------------
+# Dev Dependencies
+# -------------------------
+dev_dependencies:
+  # REMOVED: build_runner and hive_generator (Not needed after migrating from Hive to MongoDB)
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Updated to a more current, stable version
+
+# -------------------------
+# Flutter Configuration
+# -------------------------
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon.jpg
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
